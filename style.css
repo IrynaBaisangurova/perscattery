@@ -1,0 +1,634 @@
+
+.body{
+    font-family: 'Comforter', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+ @font-face {
+    font-family: 'NAMU-Pro';
+    src: url("../../Sunvuellecattery/font/NAMU-Pro.woff");
+}
+h1{
+    font-family: 'Comforter', cursive;
+    font-weight: 400;
+    letter-spacing: 0.11em;
+    margin: 0;  
+}
+h2, h3{
+    font-family: 'NAMU-Pro';
+    font-weight: 400;
+    margin: 0;
+}
+p{
+    font-family: 'NAMU-Pro';
+    font-weight: 400;
+    margin: 0;  
+}
+a{
+  font-family: 'NAMU-Pro';
+  font-weight: 400;
+  margin: 0;   
+ }
+  
+html {
+    box-sizing: border-box;
+    height: 100%;
+  }
+.wrapper{
+    width: 1440px;
+    background: #FBFBFB;
+}
+.container{
+    max-width: 1330px;
+    display: flex; 
+    margin: 0 auto;
+}
+.header{
+    background: #FBFBFB;
+    
+}
+.header_sticky {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.menu-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0, auto;
+}
+.container_header{
+    max-width: 1330px;
+    display: flex; 
+    margin: 0 auto;
+    align-items: center;
+}
+
+.header-li{
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* margin-right: 40px; */
+}
+.header-li:not(:last-child){
+    margin-right: 40px;
+}
+.ul{
+    display:flex;
+    padding: 0;
+}
+.link{
+    font-family: 'NAMU-Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    color: #000000; 
+}
+.link-li{
+    font-family: 'NAMU-Pro';
+    font-size: 14px;
+    line-height: 17px;  
+    color: #000000;
+}
+.header_symbol{
+    font-family: Comforter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 96px;
+    padding-right: 96px;
+    color: rgba(243, 20, 20, 1);   
+}
+.icons{
+    display: flex;
+    padding-left: 60px;
+}
+.line {
+    height: 1px;
+    width: 100%;
+    border: rgba(243, 20, 20, 1);
+    background-color: rgba(243, 20, 20, 1);
+    /* margin-bottom: 10px; */
+}
+.main{
+    color: #F4F4F6; 
+    width: auto;
+    z-index: 3;
+}
+.container_main{
+    width: 1440px;
+    display: flex; 
+    margin: 0 auto;
+    align-items: center;
+}
+.title_main{
+    font-family: 'Comforter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 135px;
+    color: #F31414;
+    padding-left: 110px;
+    padding-top: 247px;
+    /* padding-bottom: 10px; */
+}
+.text_main{
+    width: auto;
+    padding-top: 14px;
+    padding-left: 110px;
+}
+.subtitle_main{
+    font-family: 'NAMU'; 
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    padding-bottom: 14px;
+}
+.button_button_main{
+    font-family: 'NAMU';
+    /* font-style: normal;
+    font-weight: 900; */
+    font-size: 20px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 22px 110px;
+    background: #F31414;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+    background:linear-gradient(180deg);
+
+}
+.button_main{
+    padding-left: 110px;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+.button_button_main:hover{
+    background:white;
+    color: #F31414;
+    transition: 1s;
+    border: 2px solid #F31414;
+}
+
+.image_main{
+    position: absolute;
+    width: 826px;
+    height: 700px;
+    left: 614px;
+    top: 200px;
+}
+    /* kittens */
+.container_kittens{
+    width: 1220px;
+    /* display: flex; */
+    margin: auto;
+}
+.image_kittens{
+    padding-top: 100px;
+}
+.title_section{
+    font-family: 'NAMU-Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+}
+.title_section_cat{
+    position: absolute;
+    left: 651px;
+    top: 1009px;
+    color: #FFFFFF;
+    z-index: 3;
+}
+.subtitle_section_cat{
+    padding-top: 80px;
+   text-align: center;
+}
+.image_kittens{
+    display: flex;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+.image_section_kittens:not(:first-child){
+    margin-left: 40px;
+}
+.text_section_kittens{
+    font-family: 'NAMU-Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.02em; 
+    color: #000000;
+    width: 180px;
+}
+.text{
+    display: flex;
+    padding-top: 22px;
+    padding-bottom: 60px;
+    padding-left: 100px;
+}
+.text_section_kittens:not(:first-child){
+margin-left: 257px;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 80px;
+    border: 2px solid #F31414;
+    border-radius: 10px;
+}
+.button{
+    font-family: 'NAMU-Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 22px;
+    background: #FFFFFF;
+    color: #F31414;
+    cursor: pointer;
+    background:linear-gradient(180deg);
+}
+.button:hover{
+    background:#F31414;
+    color:#FFFFFF ;
+    transition: 1s;
+    /* border: 2px solid #F31414; */
+}
+.button_form{
+    display: flex;
+    margin: 0 auto;
+    padding-left: 47px;
+    padding-bottom: 150px;
+}
+.button_kittens:not(:first-child){
+    margin-left: 189px;
+}
+   /* our cats */
+.container_cats{
+    width: 1220px;
+    /* display: flex; */
+    margin: auto;
+}
+.title_section_cats{
+    position: absolute;
+    left: 220px;
+    top: 2437px;
+    color: #FFFFFF;
+    z-index: 3;
+}
+.subtitle_section_cats{
+    padding-top: 80px;
+    padding-bottom: 60px;
+   text-align: center;
+}
+.image_cats{
+    display: flex;
+    margin: 0 auto;
+    align-items: flex-end;
+}
+.image_section_cats:not(:first-child){
+    margin-left: 40px;
+    padding-top: 60px;
+}
+.text_section_cats{
+    font-family: 'NAMU-Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.02em; 
+    color: #000000;
+    width: 360px;
+}
+.text{
+    display: flex;
+    padding-top: 22px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+}
+.text_section_cats:not(:first-child){
+margin-left: 140px;
+}
+
+/* <!-- секция о нас --> */
+
+.container_about{
+    width: 1220px;
+    margin: 0 auto;
+}
+.title_section_about{
+    position: absolute;
+    left: 220px;
+    top: 4877px;
+    color: #FFFFFF;
+    z-index: 3;
+}
+.subtitle_section_about{
+    padding-top: 80px;
+    padding-bottom: 50px;
+   text-align: center;
+}
+.text_about{
+    display: flex;
+    padding-left: 80px;
+    padding-bottom: 80px;
+}
+.text_about_item{
+max-width: 492px;
+}
+.about_item:not(:first-child){
+padding-top: 12px;
+}
+.text_about_item:not(:first-child){
+    padding-left: 75px;
+}
+.image_section_about{
+    display: flex;
+    padding-bottom: 150px;
+}
+.image_about:not(:first-child){
+    padding-left: 40px;
+}
+      /* reviews */
+.container_reviews{
+    width: 1220px;
+    margin: 0 auto;
+}
+.title_section_reviews{
+    position: absolute;
+    left: 1062px;
+    top: 6305px;
+    color: #FFFFFF;
+    z-index: 3;
+}
+.name{
+    font-family: 'NAMU-Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    margin-right: 18px;
+
+}
+.brend_cat{
+    font-family: 'NAMU-Pro';
+    /* font-style: normal;
+    font-weight: 900; */
+    font-size: 14px;
+    line-height: 17px;
+}
+.name_brend{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 65px;
+    align-items: flex-end;
+}
+.parents{
+    font-family: 'NAMU-Pro';
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    opacity: 0.6;
+    padding-right: 8px;
+}
+.name_parents{
+    font-family: 'NAMU-Pro';
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #F31414;
+}
+.parents_items{
+    display: flex;
+    padding-left: 65px;
+    padding-top: 24px;
+    padding-bottom: 40px;
+}
+.text_reviews{
+    display: flex;
+    padding-left: 65px;
+    padding-bottom: 80px;
+}
+.text_reviews_item{
+max-width: 515px;
+}
+.reviews_item:not(:first-child){
+padding-top: 12px;
+}
+.text_reviews_item:not(:first-child){
+    padding-left: 60px;
+}
+.button_reviews{
+    margin: auto;
+}
+
+    /* Gallery */
+.container_gallery{
+    width: 1220px;
+    margin: 0 auto;
+
+}
+.image_gallery{
+   padding-top: 150px;
+}
+.title_section_gallery{ 
+    position: absolute;
+    left: 220px;
+    top: 7400px;
+    color: #FFFFFF;
+    z-index: 3;
+}
+.link_reviews{
+    font-family: 'NAMU-Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #0467A8;
+}
+.container_gallery_grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 40px;
+    padding-top: 80px;
+    padding-bottom: 150px;  
+}
+
+    /* contacts */
+.container_contacts{
+    max-width: 1220px;
+    margin:0 auto;
+}
+.questions{
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 12px;
+}
+.answer{
+    font-size: 18px;
+    line-height: 20px;
+    padding-bottom: 40px;    
+}
+.free_input{
+    padding-left: 8px;
+    padding-top: 18px;
+    padding-right: 314px;
+    padding-bottom: 18px;
+    margin-bottom: 30px;
+}
+.contacts_form{
+    padding-bottom: 346px;
+}
+.error_message{
+    font-family: 'NAMU-Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 15px; 
+    color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 4px;
+}
+.title_contacts{
+    font-size: 40px;
+    line-height: 48px;
+    padding-bottom: 60px;
+    padding-left: 100px;
+}
+.container_contacts{
+    display: flex;
+    margin:0 auto;
+}
+.text_contacts{
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    opacity: 0.6;
+}
+.text_contacts:not(:first-child){
+    padding-top: 15px;
+}
+.icons_contacts{
+    display: block;
+    padding-left: 38px;
+}
+.icons_contacts_link{
+    padding-top: 15px;
+}
+.one{
+    display: flex;
+    text-align: left;
+    padding-left: 100px;
+    padding-bottom: 40px;
+}
+.text_two{
+    padding-left: 15px ;
+}
+.text_contacts_two{
+    padding-left: 40px;
+}
+.text_contacts_item{
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.text_contacts_item:not(:first-child){
+    padding-top: 15px;
+}
+.two{
+    display: flex;
+    text-align: left;
+    /* padding-left: 80px; */
+}
+.text_contacts_link{
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.link_contacts{
+    text-decoration: none;
+    color: #F31414;
+}
+.icons_text{
+    padding-left: 100px;
+    z-index: 1;
+}
+.text_contacts_link{
+    padding-bottom: 20px;
+    
+}
+.icons_contacts_item{
+    padding-bottom: 15px;
+}
+.image_contacts{
+    position: absolute;
+    width: 779px;
+    height: 533px;
+    left: 622px;
+    top: 9383px;
+    z-index: 0;
+}
+   /* footer */
+.container_footer{
+    max-width: 1220px;
+    margin:0 auto;
+    display: flex;
+}
+.footer_symbol_name{
+    font-family:'Comforter', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+    color: #F31414;
+}
+.footer_symbol{
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+.footer_line {
+    height: 1px;
+    width: 100%;
+    border: rgba(243, 20, 20, 1);
+    background-color: rgba(243, 20, 20, 1);
+    /* margin-bottom: 10px; */
+}
+.image_footer{
+    padding-left: 60px;
+    padding-top: 20px;
+}
+.footer_text{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    padding-left: 130px;
+    padding-top: 50px;
+}
+.copyriht{
+    font-size: 9px;
+    line-height: 12px;
+    color: #000000;  
+    opacity: 0.5;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 70px;
+}
+
+
